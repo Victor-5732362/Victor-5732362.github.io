@@ -1,107 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>360</title>
-	<link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-	<div id="fullpage">
-		<!-- 第一屏 -->
-		<div class="section first">
-			<!-- LOGO -->
-			<div class="logo"></div>
-			<!-- 文字 -->
-			<div class="text">
-				<img src="./images/text_1.png" alt="">
-				<img src="./images/text_2.png" alt="">
-				<img src="./images/text_3.png" alt="">
-				<img src="./images/text_4.png" alt="">
-				<img src="./images/text_5.png" alt="">
-				<img src="./images/text_6.png" alt="">
-				<img src="./images/text_7.png" alt="">
-				<img src="./images/text_8.png" alt="">
-			</div>
-			<!-- 信息 -->
-			<div class="info"></div>
-		</div>
-		<!-- 第二屏 -->
-		<div class="section second">
-			<!-- 盾牌 -->
-			<div class="shield">
-				<img src="./images/shield_1.png" alt="">
-				<img src="./images/shield_2.png" alt="">
-				<img src="./images/shield_3.png" alt="">
-				<img src="./images/shield_4.png" alt="">
-				<img src="./images/shield_5.png" alt="">
-				<img src="./images/shield_6.png" alt="">
-				<img src="./images/shield_7.png" alt="">
-				<img src="./images/shield_8.png" alt="">
-				<img src="./images/shield_9.png" alt="">
-			</div>
-			<!-- 信息 -->
-			<div class="info"></div>
-		</div>
-		<!-- 第三屏 -->
-		<div class="section third">
-			<!-- 信息 -->
-			<div class="info"></div>
-			<!-- 圆环 -->
-			<div class="circle"></div>
-			<!-- 火箭 -->
-			<div class="rocket"></div>
-		</div>
-		<!-- 第四屏 -->
-		<div class="section fourth">
-			<!-- 搜索 -->
-			<div class="search">
-				<div class="key"></div>
-				<div class="input"></div>
-				<div class="wrap">
-					<div class="result"></div>
-				</div>
-			</div>
-			<!-- 信息 -->
-			<div class="info"></div>
-		</div>
-		<!-- 第五屏 -->
-		<div class="section fifth">
-			<!-- 信息 -->
-			<div class="info"></div>
-			<!-- 浏览器 -->
-			<div class="broswer">
-				<!-- 四边框 -->
-				<div class="leftline"></div>
-				<div class="topline"></div>
-				<div class="rightline"></div>
-				<div class="bottomline"></div>
-				<!-- 工具栏 -->
-				<div class="toolbar"></div>
-				<!-- 边框盒子 -->
-				<div class="box">
-					<span></span>
-				</div>
-				<div class="line"></div>
-				<!-- 其它 -->
-				<div class="extra"></div>
-			</div>
-		</div>
-	</div>
-	<script src="./js/jquery.min.js"></script>
-	<script src="./js/jquery.fullPage.min.js"></script>
-	<script>
-		$('#fullpage').fullpage({
-			// 设置背景色
-			sectionsColor : ['#0da5d6', '#2AB561', '#DE8910', '#16BA9D', '#0DA5D6'],
-			afterLoad: function (anchorLink, index) {
-				$('.section').removeClass('current');
-				
-				// 延时100毫秒执行
-				setTimeout(function () {
-					$('.section').eq(index - 1).addClass('current');
-				}, 100);
-			}
-		});
-	</script>
-</body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>V前端技术笔记</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="V前端技术笔记">
+    <link rel="preload" href="/vv/assets/css/0.styles.4e101ab7.css" as="style"><link rel="preload" href="/vv/assets/js/app.35bc015a.js" as="script"><link rel="preload" href="/vv/assets/js/2.5eb07d41.js" as="script"><link rel="preload" href="/vv/assets/js/5.b71de90c.js" as="script"><link rel="prefetch" href="/vv/assets/js/10.44d142eb.js"><link rel="prefetch" href="/vv/assets/js/11.f1f75d06.js"><link rel="prefetch" href="/vv/assets/js/12.18a835fa.js"><link rel="prefetch" href="/vv/assets/js/3.b85f619c.js"><link rel="prefetch" href="/vv/assets/js/4.94268aed.js"><link rel="prefetch" href="/vv/assets/js/6.c03c86f3.js"><link rel="prefetch" href="/vv/assets/js/7.8a35917f.js"><link rel="prefetch" href="/vv/assets/js/8.5df38a3d.js"><link rel="prefetch" href="/vv/assets/js/9.a462319f.js">
+    <link rel="stylesheet" href="/vv/assets/css/0.styles.4e101ab7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vv/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">V前端技术笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vv/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/vv/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/vv/js/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/vv/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vv/webpack/" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/vv/network/" class="nav-link">
+  网络
+</a></li><li class="dropdown-item"><!----> <a href="/vv/interview/" class="nav-link">
+  面试题
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vv/html/" class="nav-link">
+  HTML
+</a></div><div class="nav-item"><a href="/vv/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/vv/js/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/vv/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vv/webpack/" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/vv/network/" class="nav-link">
+  网络
+</a></li><li class="dropdown-item"><!----> <a href="/vv/interview/" class="nav-link">
+  面试题
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Home</span> <!----></p> <!----></section></li></ul> </aside> <main aria-labelledby="main-title" class="home"><header class="hero"><img src="/vv/v.png" alt="hero"> <h1 id="main-title">
+      V
+    </h1> <p class="description">
+      纪录前端一些事
+    </p> <p class="action"><a href="/vv/html.html" class="nav-link action-button">
+  立即开始 →
+</a></p></header> <div class="features"><div class="feature"><h2>简洁至上</h2> <p>以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。</p></div><div class="feature"><h2>Vue驱动</h2> <p>享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。</p></div><div class="feature"><h2>高性能</h2> <p>VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。</p></div></div> <div class="theme-default-content custom content__default"></div> <div class="footer">
+    MIT Licensed | Copyright © 2018-present Evan You
+  </div></main></div><div class="global-ui"></div></div>
+    <script src="/vv/assets/js/app.35bc015a.js" defer></script><script src="/vv/assets/js/2.5eb07d41.js" defer></script><script src="/vv/assets/js/5.b71de90c.js" defer></script>
+  </body>
 </html>
